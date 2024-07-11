@@ -1,0 +1,10 @@
+'значение флагов
+'FL0XXX флаг обозначающий кадры ENG: Frame flag
+'FL1XXX флаг языка ENG: Lenguage flag
+'   001 Русский
+'   002 english
+'   003 
+'   004
+'
+'FL2XXX флаг для изображений ENG: Background flag
+'
