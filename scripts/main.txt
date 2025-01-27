@@ -1,3 +1,4 @@
+#SET FL1013
 :TOP
 'для дебага
 '#GOTO #092 
@@ -50,13 +51,15 @@ All Rights Reserved
 !soundOFF;Нет
 /I
 :soundON
-#LOOPMUSIC melody
+#SET FL1013
 #GOTO menu
 :soundOFF
+#CLEAR FL1013
 #STOPMUSIC
 #GOTO menu
 
 :newGame
+#IF FL1013 #LOOPMUSIC melody
 :#000
 #CLEARBKG
 #LOADBKG A@
